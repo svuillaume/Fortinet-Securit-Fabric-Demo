@@ -3,6 +3,15 @@
 Goal:
 Demonstrate Fortinet Security Fabric automation across hybrid and Public Cloud environments.
 
+Context:
+
+This demonstration is designed purely for educational and proof-of-concept purposes.
+Now, under normal conditions, a FortiGate IPS profile would easily detect and block traffic going to known malicious IP addresses. But in today’s landscape, especially with zero-day threats and rapidly evolving attacker infrastructure, not every suspicious IP is immediately labeled as bad.
+
+That’s where FortiCNAPP really elevates the Fortinet Security Fabric. By combining composite indicators with advanced anomaly detection, it can identify unusual callback activity — even when the IP itself hasn’t yet been marked as malicious.
+
+This makes FortiCNAPP especially powerful for detecting early signs of data exfiltration, ransomware callbacks, or compromised hosts reaching out to command-and-control servers — providing visibility and protection well beyond traditional, signature-based defenses.
+
 Overview:
 This demo showcases a multi-cloud deployment spanning Microsoft Azure and Amazon Web Services (AWS), on Premises integrating:
 
