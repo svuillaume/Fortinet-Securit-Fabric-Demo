@@ -48,7 +48,8 @@ This demo showcases a **multi-cloud deployment** spanning **Microsoft Azure** an
 
 ## 🧠 Multi-Cloud Fortinet Security Fabric
 
-![Fortinet Security Fabric Diagram](https://github.com/user-attachments/assets/0c6cc7e8-ba09-42fc-8bed-159b568724af)
+<img width="531" height="460" alt="image" src="https://github.com/user-attachments/assets/564e85cb-52a4-48d0-9cf3-319363d9c406" />
+
 
 ## 🧠 What is used in this demo
 
