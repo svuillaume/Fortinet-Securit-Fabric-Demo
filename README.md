@@ -16,6 +16,8 @@ This is where **FortiCNAPP** significantly enhances the Fortinet Security Fabric
 By combining **composite indicators** with **advanced anomaly detection**, it can identify unusual callback activity even when the IP has not yet been flagged as malicious.
 
 This capability is particularly powerful in detecting early signs of:
+- **Highly Dynamic IP enviroment (where IP source contastly changing)
+- **API Protection against DDOS Attacks
 - **Data exfiltration**
 - **Ransomware callbacks**
 - **Compromised hosts** communicating with external command-and-control servers
