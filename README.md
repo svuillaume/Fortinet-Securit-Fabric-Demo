@@ -15,12 +15,15 @@ However, in today’s threat landscape — especially with **zero-day attacks** 
 This is where **FortiCNAPP** significantly enhances the Fortinet Security Fabric.  
 By combining **composite indicators** with **advanced anomaly detection**, it can identify unusual callback activity even when the IP has not yet been flagged as malicious.
 
+# Early Threat Detection Capabilities
+
 This capability is particularly powerful in detecting early signs of:
-- **Highly Dynamic IP enviroment (where IP source contastly changing)
-- **API Protection against DDOS Attacks
-- **Data exfiltration**
-- **Ransomware callbacks**
-- **Compromised hosts** communicating with external command-and-control servers
+
+- **Highly Dynamic IP environment** (where IP sources constantly change)
+- **API Protection against DDoS Attacks**
+- **Data Exfiltration**
+- **Ransomware Callbacks**
+- **Compromised Hosts** communicating with external command-and-control servers
 
 Together, FortiGate, FortiAnalyzer, and FortiCNAPP provide **visibility and protection** well beyond traditional, signature-based defenses.
 
