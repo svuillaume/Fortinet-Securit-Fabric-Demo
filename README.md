@@ -144,6 +144,31 @@ By integrating **FortiGate**, **FortiAnalyzer**, and **FortiCNAPP**, organizatio
 *Last Updated: October 2025*
 
 
+## Remove IP BAN 
+```
+diagnose user banned-ip list
+src-ip-addr       created                  expires                  cause            
+1.1.1.1           Tue Mar  3 05:14:06 2026 indefinite               Administrative   
+100.100.100.100   Tue Mar  3 07:25:18 2026 indefinite               Administrative   
+101.101.101.101   Tue Mar  3 07:34:13 2026 indefinite               Administrative   
+192.0.2.100       Tue Mar  3 07:06:13 2026 indefinite               Administrative   
+192.16.1.1        Tue Mar  3 07:17:34 2026 indefinite               Administrative   
+
+FGVMSLTM26009118 # diagnose user banned-ip delete src4 192.0.2.100 
+
+FGVMSLTM26009118 # diagnose user banned-ip delete src4 100.100.100.100
+
+FGVMSLTM26009118 # diagnose user banned-ip delete src4 101.101.101.101 
+
+FGVMSLTM26009118 # diagnose user banned-ip list
+src-ip-addr       created                  expires                  cause            
+1.1.1.1           Tue Mar  3 05:14:06 2026 indefinite               Administrative   
+192.16.1.1        Tue Mar  3 07:17:34 2026 indefinite               Administrative   
+
+FGVMSLTM26009118 # diagnose user banned-ip delete src4 192.16.1.1 
+```
+
+
 
 
 
