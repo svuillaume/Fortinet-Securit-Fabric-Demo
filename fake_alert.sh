@@ -9,7 +9,7 @@ Alert Types:
 
 Select alert type [1-2, default: 1]: 1
 
-Enter FEC Token [default: c7ddc09d-5b9b-4a24-bc24-c0f48186da30]: 
+Enter FEC Token [default: xxxxxxxx]: 
 Enter Source IP [default: 172.31.10.50]: 
 Enter Username [default: admin]: 
 Enter Hostname [default: web-server-01]: 
