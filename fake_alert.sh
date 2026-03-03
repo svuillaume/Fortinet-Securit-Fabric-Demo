@@ -34,7 +34,7 @@ echo "  Source IP: $SRC_IP"
 echo "  Destination IP: $DST_IP"
 echo ""
 
-curl -X POST "https://cnapp.duckdns.org/fazfec?token=c7ddc09d-5b9b-4a24-bc24-c0f48186da30" \
+curl -X POST "https://cnapp.duckdns.org/fazfec?token="xxxxx" \
   -H "Content-Type: application/json" \
   -d "{
   \"event_title\": \"Malicious IP Connection Attempt\",
