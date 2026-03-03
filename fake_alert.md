@@ -1,4 +1,3 @@
-'
 curl -X POST "https://cnapp.duckdns.org/fazfec?token=xxxxxxxxxx" \
   -H "Content-Type: application/json" \
   -d '{
