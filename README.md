@@ -71,6 +71,11 @@ This demo showcases a **multi-cloud deployment** spanning **Microsoft Azure** an
 - Add **FortiGate (FG)** as a managed device in **FortiAnalyzer (FAZ)**.
 - Connect **FG** to **FAZ Fabric**.
 
+- here is the DNS01 challenge webhook to work with duckdns.org
+`
+  https://github.com/svuillaume/letsencrypt-DuckDNS-hook
+`
+
 ---
 
 ### 2. On FortiGate
