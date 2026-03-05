@@ -210,12 +210,4 @@ spec:
 
 ---
 
-If you want, I can also **enhance this manifest** with:
-
-- Namespace isolation  
-- Centralized log volume  
-- Multiple beacon pods with randomized IP jitter  
-
-So it’s a **full CNAPP lab deployment** ready to run.  
-
-Do you want me to do that next?
+## microk8s kubectl exec outbound-beacon-79c4d9fc48-jfmsl -- netstat -tn | grep ESTABLISHED
